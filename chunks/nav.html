@@ -1,16 +1,15 @@
 	
-		<nav>
-			[[Wayfinder? &startId=`0`&level=`2`]]
+<nav>
+			
 
-		        <img src="assets/images/headshot.jpg" alt="head shot" height="150" width="150" />    
-
-
-  [[!getResources? 
-    &tpl=`sidebarTpl`
-    &sortby=`menuindex`
-    &includeContent=`0`
+  [[!Wayfinder?
+    &startId=`0`
+    &level =`2`
+    &parentRowTpl=`WayFinderOuterRow`
+    &innerTpl=`WayFinderInnerRow`
+    &hideSubMenu=`0`
     ]]
 
-
-		</nav>
-              
+  <img src="assets/images/headshot.jpg" alt="head shot" height="150" width="150" />    
+</nav>
+             
